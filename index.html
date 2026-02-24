@@ -20,7 +20,8 @@
 
         <!-- Stats Section -->
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
-            <div class="bg-white shadow rounded-xl p-6 text-center">
+            <div class="bg-white shadow rounded-xl p-6 text-center
+            ">
                 <p class="text-gray-500">Total</p>
                 <p class="text-3xl font-bold text-[#002C5C]">8</p>
             </div>
@@ -49,27 +50,26 @@
 
         <!-- Tabs -->
         <div class="flex gap-3 mb-8 flex-wrap">
-            <button class="px-5 py-2 bg-black text-white rounded-lg cursor-pointer ">All</button>
-            <button class="px-5 py-2 bg-gray-200 rounded-lg transition cursor-pointer ">Interview</button>
-            <button class="px-5 py-2 bg-gray-200 rounded-lg cursor-pointer">Rejected</button>
+            <button class="px-5 py-2 bg-black text-white rounded-lg cursor-pointer
+            transition duration-300 ease-in-out hover:scale-110 hover:bg-gray-800 ">All</button>
+            <button class="px-5 py-2 bg-gray-200 rounded-lg transition cursor-pointer 
+            transition duration-300 ease-in-out hover:scale-110 hover:bg-gray-800 ">Interview</button>
+            <button class="px-5 py-2 bg-gray-200 rounded-lg cursor-pointer
+            transition duration-300 ease-in-out hover:scale-110 hover:bg-gray-800">Rejected</button>
         </div>
 
         <!-- Cards Grid -->
         <section class="grid grid-cols-1 md:grid-cols-1 gap-6   ">
 
-
             <!-- Card 1 -->
-            <div class="bg-white shadow rounded-xl p-6 flex flex-col justify-between relative ">
+            <div class="bg-white shadow rounded-xl p-6 flex flex-col justify-between relative">
 
                 <button class="absolute top-4 right-4 text-black-500 hover:text-red-700 text-lg cursor-pointer">
                     <i class="fa-regular fa-trash-can"></i>
                 </button>
-
-
                 <div class="space-y-4">
                     <div>
                         <h3 class="text-xl font-bold text-[#002C5C]">Mobile First Corp</h3>
-
                         <p class="text-gray-500 ">React Native Developer</p> <br>
                         <p class="text-gray-500 ">Remote
                             •
@@ -78,59 +78,10 @@
                             $130,000 - $175,000</p>
                     </div>
 
-                    <div class="flex gap-2 flex- ">
+                    <div class="flex gap-2 flex-wrap">
                         <span class="bg-gray-100 px-3 py-1 rounded text-sm">Not Applied</span>
-                        <p class="text-gray-500 ">Build cross-platform mobile applications using React Native. Work on
+                        <p class="text-[#323B49] ">Build cross-platform mobile applications using React Native. Work on
                             products used by millions of users worldwide.</p>
-
-                    </div>
-
-
-                </div>
-
-                <div class="flex justify-between mt-6">
-                    <div class="flex gap-3">
-                        <button class="bg-green-100 text-green-600 px-4 py-2 rounded-lg 
-                        cursor-pointer hover:bg-green-200 transition ">
-                            Interview
-                        </button>
-                        <button class="bg-red-100 text-red-600 px-4 py-2 rounded-lg
-                        cursor-pointer hover:bg-red-200 transition">
-                            Rejected
-                        </button>
-                    </div>
-
-
-                </div>
-            </div>
-
-
-            <!-- Card 2 -->
-            <div class="bg-white shadow rounded-xl p-6 flex flex-col justify-between relative">
-
-                <button class="absolute top-4 right-4 text-black-500 hover:text-red-700 text-lg cursor-pointer">
-                    <i class="fa-regular fa-trash-can"></i>
-                </button>
-
-                <div class="space-y-4">
-                    <div>
-                        <h3 class="text-xl font-bold text-[#002C5C]">WebFlow Agency</h3>
-                        <p class="text-gray-500 ">Web Designer & Developer</p> <br>
-                        <p class="text-gray-500 ">Los Angeles, CA
-                            •
-                            Part-time
-                            •
-                            $80,000 - $120,000</p>
-                    </div>
-
-                    <div class="flex flex-col gap-2 ">
-                        <span class="bg-gray-100 px-3 py-1 rounded text-sm w-fit">
-
-                            Not Applied
-
-                        </span>
-                        <p class="text-gray-500 ">Create stunning web experiences for high-profile clients. Must have
-                            portfolio and experience with modern web design trends.</p>
 
                     </div>
 
@@ -153,6 +104,48 @@
                 </div>
             </div>
 
+            <!-- Card 2 -->
+            <div class="bg-white shadow rounded-xl p-6 flex flex-col justify-between relative">
+
+                <button class="absolute top-4 right-4 text-black-500 hover:text-red-700 text-lg cursor-pointer">
+                    <i class="fa-regular fa-trash-can"></i>
+                </button>
+                <div class="space-y-4">
+                    <div>
+                        <h3 class="text-xl font-bold text-[#002C5C]">WebFlow Agency</h3>
+                        <p class="text-gray-500 ">Web Designer & Developer</p> <br>
+                        <p class="text-gray-500 ">Los Angeles, CA
+ • 
+Part-time 
+•
+ $80,000 - $120,000</p>
+                    </div>
+
+                    <div class="flex gap-2 flex-wrap">
+                        <span class="bg-gray-100 px-3 py-1 rounded text-sm">Not Applied</span>
+                        <p class="text-[#323B49] ">Create stunning web experiences for high-profile clients. 
+                            Must have portfolio and experience with modern web design trends.</p>
+
+                    </div>
+
+
+                </div>
+
+                <div class="flex justify-between mt-6">
+                    <div class="flex gap-3">
+                        <button class="bg-green-100 text-green-600 px-4 py-2 rounded-lg
+                        cursor-pointer hover:bg-green-200 transition">
+                            Interview
+                        </button>
+                        <button class="bg-red-100 text-red-600 px-4 py-2 rounded-lg
+                        cursor-pointer hover:bg-red-200 transition">
+                            Rejected
+                        </button>
+                    </div>
+
+
+                </div>
+            </div>
             <!-- Card 3 -->
             <div class="bg-white shadow rounded-xl p-6 flex flex-col justify-between relative">
 
@@ -172,7 +165,7 @@
 
                     <div class="flex gap-2 flex-wrap">
                         <span class="bg-gray-100 px-3 py-1 rounded text-sm">Not Applied</span>
-                        <p class="text-gray-500 ">Transform complex data into compelling visualizations. Required
+                        <p class="text-[#323B49] ">Transform complex data into compelling visualizations. Required
                             skills: D3.js, React, and strong analytical thinking.
                         </p>
 
@@ -216,7 +209,7 @@
 
                     <div class="flex gap-2 flex-wrap">
                         <span class="bg-gray-100 px-3 py-1 rounded text-sm">Not Applied</span>
-                        <p class="text-gray-500 ">Design and maintain scalable backend systems using Python and AWS.
+                        <p class="text-[#323B49] ">Design and maintain scalable backend systems using Python and AWS.
                             Work with modern DevOps practices and cloud infrastructure.</p>
 
                     </div>
@@ -259,7 +252,7 @@
 
                     <div class="flex gap-2 flex-wrap">
                         <span class="bg-gray-100 px-3 py-1 rounded text-sm">Not Applied</span>
-                        <p class="text-gray-500 ">Create beautiful and functional user interfaces for our suite of
+                        <p class="text-[#323B49] ">Create beautiful and functional user interfaces for our suite of
                             products. Strong design skills and frontend development expertise required.</p>
 
                     </div>
@@ -303,7 +296,7 @@
 
                     <div class="flex gap-2 flex-wrap">
                         <span class="bg-gray-100 px-3 py-1 rounded text-sm">Not Applied</span>
-                        <p class="text-gray-500 ">Build enterprise applications with JavaScript and modern frameworks.
+                        <p class="text-[#323B49] ">Build enterprise applications with JavaScript and modern frameworks.
                             We offer competitive compensation, health insurance, and professional development
                             opportunities.</p>
 
@@ -347,7 +340,7 @@
 
                     <div class="flex gap-2 flex-wrap">
                         <span class="bg-gray-100 px-3 py-1 rounded text-sm">Not Applied</span>
-                        <p class="text-gray-500 ">Join our fast-growing startup and work on our core platform.
+                        <p class="text-[#323B49] ">Join our fast-growing startup and work on our core platform.
                             Experience with Node.js and React required. Great benefits and equity package included.</p>
 
                     </div>
@@ -390,7 +383,8 @@
 
                     <div class="flex gap-2 flex-wrap">
                         <span class="bg-gray-100 px-3 py-1 rounded text-sm">Not Applied</span>
-                        <p class="text-gray-500 ">We are looking for an experienced Frontend Developer to build scalable
+                        <p class="text-[#323B49] ">We are looking for an experienced Frontend Developer to build
+                            scalable
                             web applications using React and TypeScript. You will work with a talented team on
                             cutting-edge projects.</p>
 
