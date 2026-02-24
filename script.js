@@ -90,6 +90,9 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         totalEl.innerText = jobs.filter(j => j.status !== "deleted").length;
+        document.getElementById("smallStatusBar").innerText =
+            jobs.filter(j => j.status !== "deleted").length;
+        document.getElementById("#smallStatusBar") = jobs.filter(j => j.status !== "deleted").length;
         interviewEl.innerText = intCount;
         rejectedEl.innerText = rejCount;
     }
@@ -111,7 +114,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 jobs[i].status = "interview";
 
                 statusSpan.innerText = "Interview";
-                statusSpan.className = "bg-green-100 text-green-600px-3 py-1 rounded text-sm";
+                statusSpan.className = "bg-green-100 text-green-600px-3 py-1 rounded text-sm inline";
 
                 updateStats();
                 toggleEmptyState();
