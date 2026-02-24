@@ -36,11 +36,17 @@ document.body.appendChild(newTag);
 ---
 
 📝 Ans to the question no - 03
-What is Event Bubbling?
-Event Bubbling is a simple concept in JavaScript. When you click an element (like a button), the click doesn't just stay there. It "bubbles up" like an air bubble in water.
 
-How it works: When you click a child element, you are also clicking its parent elements. The event travels from the inside to the outside, one by one.
+Event Bubbling is a mechanism in the **DOM (Document Object Model)** where an event that happens on a child element first runs on that element and then propagates (bubbles up) to its parent elements one by one.
+
+
+
+## Event Bubbling Works
+
+How it works: When you click a child element, you are also clicking its parent elements. The event travels from the inside to the outside, one by one
+
 ---
+
 
 📝 Ans to the question no - 04
 What is Event Delegation?
