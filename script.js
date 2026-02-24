@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", function () {
         totalEl.innerText = jobs.filter(j => j.status !== "deleted").length;
         document.getElementById("smallStatusBar").innerText =
             jobs.filter(j => j.status !== "deleted").length;
-        document.getElementById("#smallStatusBar") = jobs.filter(j => j.status !== "deleted").length;
+        
         interviewEl.innerText = intCount;
         rejectedEl.innerText = rejCount;
     }
